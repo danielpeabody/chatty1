@@ -5,7 +5,7 @@ const holder = document.getElementById('messageHolder');
 
 
 
-let url = 'http://localhost:3000/chats'
+let url = 'http://143.244.147.253:3000/chats'
 let p = fetch(url);
 p.then((response) => response.json())
 .then((data) => {
