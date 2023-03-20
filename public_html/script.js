@@ -28,7 +28,7 @@ console.log(error);
 
 
 sendButton.addEventListener('click',(event) =>{
-    let url = 'http://localhost:3000/'
+    let url = 'http://143.244.147.253:3000/'
     fetch(url, {
     // Adding method type
     method: "POST",
