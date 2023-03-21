@@ -1,3 +1,13 @@
+/* 
+    CSC 337
+    Daniel Peabody
+    3/14/2023
+    Stye sheet for chat app. Creates a 70/30 split
+    for the messages and input areas. The main colors 
+    used are shades of green. 
+*/
+
+
 body {
     padding: 0;
     margin: 0;

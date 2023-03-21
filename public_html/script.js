@@ -1,3 +1,13 @@
+/*
+CSC 337
+Daniel Peabody
+3/14/2023
+
+This is the script for the client side of the chat app.
+It takes the input from the user and sends that data to the 
+server to be stored in a database. It then requests the message
+data every second to update the chat.
+*/
 const sendButton = document.getElementById("send");
 const alias = document.getElementById('alias');
 const message = document.getElementById('message');

@@ -2,6 +2,11 @@
 CSC 337
 Daniel Peabody
 3/14/2023
+
+This is the server for the client  of the chat app.
+It takes the request from the client and sends that data to the 
+database to be stored.It then responds to the client with the 
+messages every second to update the chat.
 */
 
 
