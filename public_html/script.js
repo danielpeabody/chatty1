@@ -15,7 +15,7 @@ const holder = document.getElementById('messageHolder');
 
 
 
-let url = 'http://143.244.147.253:3000/chats'
+let url = '/chats'
 let p = fetch(url);
 p.then((response) => response.json())
 .then((data) => {
@@ -38,7 +38,7 @@ console.log(error);
 
 
 sendButton.addEventListener('click',(event) =>{
-    let url = 'http://143.244.147.253:3000/'
+    let url = '/'
     fetch(url, {
     // Adding method type
     method: "POST",
@@ -55,7 +55,7 @@ sendButton.addEventListener('click',(event) =>{
 })
 
 setInterval(function () {
-    let url = 'http://143.244.147.253:3000/chats'
+    let url = '/chats'
     let p = fetch(url);
     p.then((response) => response.json())
     .then((data) => {
