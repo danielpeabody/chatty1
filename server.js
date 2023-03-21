@@ -24,7 +24,7 @@ app.use(express.static('public_html'))
 app.listen(port, () => 
   console.log(`App listening at http://localhost:${port}`))
 mongoose.set('strictQuery', true);
-const connection_string ="mongodb+srv://danielpeabody:bulldog1297@cluster0.un7mu3u.mongodb.net/?retryWrites=true&w=majority";
+const connection_string ="mongodb://143.244.147.253/";
 
 mongoose.connect(connection_string, {useNewUrlParser:true});
 mongoose.connection.on('error', () => {
