@@ -21,7 +21,7 @@ const { response } = require('express');
 
 app.use(express.static('public_html'))
 
-app.listen(port, () => 
+app.listen(port,'143.244.147.253', () => 
   console.log(`App listening at http://localhost:${port}`))
 mongoose.set('strictQuery', true);
 const connection_string ="mongodb://143.244.147.253/";
